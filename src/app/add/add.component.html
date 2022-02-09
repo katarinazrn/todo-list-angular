@@ -1,0 +1,4 @@
+<form  #todo="ngForm" (ngSubmit)="addTodo(todo.value, todo)"  class="form item">
+  <input ngModel required placeholder="New todo item..." name="value"  type="text" />
+  <button  class="material-icons" type="submit" >add_circle</button>
+</form>

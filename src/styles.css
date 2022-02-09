@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+.container {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+html {
+  min-height: 100vh;
+  background-color: rgb(245, 248, 245);
+  font-family: "Righteous", cursive;
+}
+
+header a {
+  color: rgb(162, 176, 253);
+  font-size: 60px;
+  font-family: "Righteous", cursive;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(205, 235, 235);
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 96%;
+  }
+}
